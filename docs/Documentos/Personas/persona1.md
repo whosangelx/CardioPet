@@ -1,31 +1,32 @@
-*NOME: Luisa Santiago*  
-*IDADE: 42 anos*
+*Nome: Edgar Vieira*  
+*IDADE: 38 anos*
 ## QUEM
-Luiza se descreve como uma pessoa alegre, carismática e que ama animais. Ela é formada em biologia e  trabalha em uma floricultura. Ela tem medo de não proporcionar uma melhor qualidade de vida para seu cachorro Jojo, que é um buldogue inglês com problemas cardíacos.
+Edgar se descreve como uma pessoa proativa que sempre busca conhecimentos para melhorar a saúde de seus pacientes. Ele é formado em medicina veterinária e tem seu próprio consultório. Ele tem medo de não conseguir ajudar seus pacientes a ter um melhor estilo de vida.
 
 ## CONTEXTO
 *Quais tarefas da sua rotina ele realiza utilizando aplicações?*  
-Ela utiliza iCSee para monitorar seu Pet.
+Ele utiliza Vet Smart oferece bulário veterinário, controle de atendimentos.
 
 ## EXPERIÊNCIAS PRÉVIAS/PREFERÊNCIAS
 | Pergunta | Resposta |
 | -------- | -------- |
-| E1. Quais partes das aplicações citadas no Contexto ele gosta? Por quê?| No Instagram além de compartilhar nos Stories ela gosta da função de destaque, que junta e organiza esses momentos fixando no perfil. Ela também gosta do design em "grade" em que as publicações no perfil são organizadas, porque acha que esse design pode ser usado de diversas maneiras como montar uma imagem com 9 publicações, tipo um quebra-cabeça.|
-| E2. Quais partes dessas aplicações ele não gosta? Por quê?| Ela não gosta das publicações em video do Instagram ocuparem grande parte do espaço da tela porque acha desnecessario e da falta de organização.|
-| E3. Em quais dispositivos ele utiliza essas aplicações?|Ela usa esses aplicativos no Celular.|
-| E4. Como ele aprende a usar uma aplicação (perguntando a outras pessoas, pesquisando, lendo manuais, mexendo na aplicação)?|Mexendo na aplicação e perguntando a outras pessoas.|
+| E1. Quais partes das aplicações citadas no Contexto ele gosta? Por quê?| Ele gosta de acompanhar a rotina dos seus pacientes, porque assim ele consegue gerenciar a saúde de seus pacientes.|
+| E2. Quais partes dessas aplicações ele não gosta? Por quê?| Ele acha o Vet Smart confuso, com muita informação e pouca personalização, o que atrapalha sua busca por praticidade.|
+| E3. Em quais dispositivos ele utiliza essas aplicações?|Ele utiliza essas aplicações principalmente em smartphone para consultas rápidas e comunicação com clientes, e em computador no consultório, para gerenciar prontuários e agendamentos com mais conforto.|
+| E4. Como ele aprende a usar uma aplicação (perguntando a outras pessoas, pesquisando, lendo manuais, mexendo na aplicação)?|Pesquisando e lendo manuais.|
+| E5. Ele gosta de fazer as coisas passo a passo ou prefere atalhos? | Ele gosta de fazer as coisas passo a passo. |
 | E6. Ele lembra melhor das coisas vendo imagens/representações gráficas, lendo texto ou ouvindo áudio?|Lendo texto.|
-| E7. No mundo virtual ele gosta de interação social e compartilhamento de acontecimentos ou prefere se manter reservado?|Interação social sem duvida, ama compartilhar os momentos com as pessoas que ama.|
+| E7. No mundo virtual ele gosta de interação social e compartilhamento de acontecimentos ou prefere se manter reservado?|ele gosta de se manter reservado.|
 
 ## PROBLEMAS/NECESSIDADES/DESEJOS
 | Pergunta | Resposta |
 | -------- | -------- |
-| P1. Quais problemas ela enfrenta na sua rotina que podem ser resolvidas pela aplicação a ser projetada?|Ela prefere uma rede social que tenha um espaço focado em compartilhar seus ultimos momentos e sua personalidade.|
-| P2. O que a aplicação a ser projetada pode ter para ajudar ele a resolver estes problemas?|A aplicação poderá criar uma pagina para preservar sua imagem e lembranças, além de permitir o compartilhamento entre seus familiares e amigos.|
+| P1. Quais problemas ele enfrenta na sua rotina que podem ser resolvidas pela aplicação a ser projetada?|Ele tem dificuldade de realizar o monitoramento cardíaco de seus pacientes.|
+| P2. O que a aplicação a ser projetada pode ter para ajudar ele a resolver estes problemas?|Pode ajudar a administrar a saúde de seus pacientes.|
 
 ## SOLUÇÕES EXISTENTES
 | Pergunta | Resposta |
 | -------- | -------- |
-| S1. Existem outras tecnologias que resolvem os problemas (ou parte deles) citados? Quais? De que forma estas tecnologias ajudam?|Sim, o Facebook. Há um area para transformar o perfel em um memorial.|
-| S2. Quais características positivas/essenciais dessas tecnologias?|A preservação de postagem e acesso do perfil a um responsavel proximo do falecido.|
-| S3. Quais características negativas/dispensáveis dessa tecnologia?|A demora para liberar o perfil para o memorial.|
+| S1. Existem outras tecnologias que resolvem os problemas (ou parte deles) citados? Quais? De que forma estas tecnologias ajudam?|Coração Pet Monitor e My Pet's Heart2.|
+| S2. Quais características positivas/essenciais dessas tecnologias?|Eles ajudam a monitorar a saúde respiratória e cardíaca do pet.|
+| S3. Quais características negativas/dispensáveis dessa tecnologia?|Eles acabam não sendo precisos em seus resultados.|
