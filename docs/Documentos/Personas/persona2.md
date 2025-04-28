@@ -10,7 +10,7 @@ Ela utiliza iCSee para monitorar seu Pet.
 ## EXPERIÊNCIAS PRÉVIAS/PREFERÊNCIAS
 | Pergunta | Resposta |
 | -------- | -------- |
-| E1. Quais partes das aplicações citadas no Contexto ele gosta? Por quê?| No Instagram além de compartilhar nos Stories ela gosta da função de destaque, que junta e organiza esses momentos fixando no perfil. Ela também gosta do design em "grade" em que as publicações no perfil são organizadas, porque acha que esse design pode ser usado de diversas maneiras como montar uma imagem com 9 publicações, tipo um quebra-cabeça.|
+| E1. Quais partes das aplicações citadas no Contexto ele gosta? Por quê?| Ela gosta de acompanhar a rotina do Jojo, porque ela se sente mais segura.|
 | E2. Quais partes dessas aplicações ele não gosta? Por quê?| Ela não gosta das publicações em video do Instagram ocuparem grande parte do espaço da tela porque acha desnecessario e da falta de organização.|
 | E3. Em quais dispositivos ele utiliza essas aplicações?|Ela usa esses aplicativos no Celular.|
 | E4. Como ele aprende a usar uma aplicação (perguntando a outras pessoas, pesquisando, lendo manuais, mexendo na aplicação)?|Mexendo na aplicação e perguntando a outras pessoas.|
