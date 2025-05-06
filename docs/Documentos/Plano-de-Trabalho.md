@@ -112,12 +112,12 @@ Ademais, o sistema permitirá o registro básico dos sinais captados, auxiliando
 ## 3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes
 | Responsabilidade        | Profissional                   |
 | ----------------------- | ------------------------------ |
-| Scrum Master            | Chyntia Prestes |
-| Avaliador de inspeção | João vitor    |
+| Scrum Master            | João Vitor O. |
+| Avaliador de inspeção | Chyntia Prestes    |
 | Desenvolvedor embarcado (ESP32)  | Luanna Benezar |
 | Desenvolvedor mobile (App)       | Gabriel Batista    |
 | Prototipação    | Chyntia Prestes  |
-| Analista de requisitos       | João vitor    |
+| Analista de requisitos       | João Vitor O.    |
 | Modelador                    | Manoele Braga |
 
 ## 3.3 Fases, Atividades e Cronograma
