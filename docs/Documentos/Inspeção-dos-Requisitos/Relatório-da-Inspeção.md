@@ -1,1 +1,2 @@
-
+# Relatório da Inspeção dos Requisitos
+- A inspeção foi conduzida por dois inspetores, identificados como Inspetor A e Inspetor G. Cada um deles elaborou, de forma independente, uma tabela categorizando os defeitos encontrados nos requisitos. Após concluírem suas análises individuais, os inspetores reuniram-se para comparar e discutir suas tabelas. Com base nessa discussão, realizaram uma consolidação das informações, elaborando uma única tabela unificada. Nessa tabela final, foram registrados os defeitos considerados reais, ou seja, aqueles que ambos concordaram que deveriam ser corrigidos.
