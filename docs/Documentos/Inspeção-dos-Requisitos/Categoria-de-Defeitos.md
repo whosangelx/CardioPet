@@ -4,7 +4,7 @@
  "Ambiguidade", "Inconsistência", "Fato incorreto" e "Informação estranha". Tais categoria
  foram organizadas por número de identificação (ID).
 
-- **Tabela 1: Categorias de Defeitos**
+### **Tabela 1: Categorias de Defeitos**
   
 | ID     | Defeito | Descrição                                                 |
 |----------|------------|---------------------------------------------------------------|
