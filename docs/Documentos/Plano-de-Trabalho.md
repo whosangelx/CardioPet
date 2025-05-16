@@ -2,8 +2,8 @@
 
 | Nome do Projeto:       | CardioPet: Peitoral com tecnologia vestível para monitoramento de Sinais Cardíacos em pets |
 | ---------------------- | --------------------------------- |
-| Versão:                | 1.0                              |
-| Status:                | Especificação             |
+| Versão:                | 1.1                              |
+| Status:                | Inspeção             |
 | Executor Principal:    | Chyntia Prestes, Gabriel Batista, João Vitor Oliveira, Luanna Benezar e Manole Braga    |
 | Coordenador Principal: | Vandermi Silva                  |
 
