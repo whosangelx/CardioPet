@@ -12,16 +12,16 @@
 # HISTÓRICO DE VERSÕES
 | Versão | Descrição                              | Autor                          | Data       |
 | ------ | -------------------------------------- | ------------------------------ | ---------- |
-| 1.0    |Elaboração da proposta inicial do sistema embarcado CardioPet: definição do problema, objetivos do projeto e identificação preliminar de necessidades      | Chyntia F Prestes, Gabriel Batista, João Vitor Oliveira, Luanna Benezar, Manoele Braga. | 23/03/2025 |
-| 2.0    |Elaboração do Plano de Trabalho: definição de cronograma, divisão de tarefas e metodologia de desenvolvimento.| Chyntia F Prestes, Gabriel Batista, João Vitor Oliveira, Luanna Benezar, Manoele Braga. | 23/03/2025 |
-| 3.0    |Criação de duas personas para definição do perfil dos usuários finais (ex.: veterinários e tutores de pets), visando guiar as decisões de requisitos e funcionalidades.| Chyntia F Prestes, Gabriel Batista, João Vitor Oliveira, Luanna Benezar, Manoele Braga. | 24/04/2025 |
-| 4.0    |Definição dos Requisitos Funcionais: funcionalidades principais como monitoramento cardíaco, geração de alertas e armazenamento de dados.|  Chyntia Prestes, João Vitor Oliveira.| 26/04/2025 |
-| 5.0    |Definição dos Requisitos Não Funcionais: desempenho, autonomia de bateria, conectividade e  robustez.|  Chyntia Prestes, João Vitor Oliveira.| 26/04/2025 |
-| 6.0    |Definição das Regras de Negócio: parâmetros clínicos, limites de alerta, periodicidade de coleta dos sinais, políticas de armazenamento e envio de dados.|  Chyntia Prestes, João Vitor Oliveira.| 27/04/2025|
-| 7.0    |Definição dos sensores e componentes: escolha de sensores de frequência cardíaca, microcontroladores (ESP32), módulos Bluetooth, fonte de alimentação, etc.|  Chyntia Prestes, João Vitor Oliveira.| 27/04/2025|
-| 8.0    |Definição da Arquitetura do Sistema: elaboração de diagramas de blocos, fluxogramas de dados, comunicação entre módulos e integração dos sensores com o microcontrolador.|Manoele Braga, Gabriel Batista.| 05/05/2025|
-| 9.0    |Alteração de Escopo: Decisão de não desenvolver o aplicativo mobile. O projeto passa a focar exclusivamente no sistema embarcado com funcionalidades locais.|Chyntia Prestes, João Vitor Oliveira.| 28/05/2025|
-| 10.0    |Elaboração Física do Projeto: montagem do protótipo, integração dos sensores com o microcontrolador, desenvolvimento de software embarcado e realização de testes iniciais.|Chyntia Prestes, João Vitor Oliveira.| 12/06/2025|
+| 0.1    |Elaboração da proposta inicial do sistema embarcado CardioPet: definição do problema, objetivos do projeto e identificação preliminar de necessidades      | Chyntia F Prestes, Gabriel Batista, João Vitor Oliveira, Luanna Benezar, Manoele Braga. | 23/03/2025 |
+| 0.2   |Elaboração do Plano de Trabalho: definição de cronograma, divisão de tarefas e metodologia de desenvolvimento.| Chyntia F Prestes, Gabriel Batista, João Vitor Oliveira, Luanna Benezar, Manoele Braga. | 23/03/2025 |
+| 0.3    |Criação de duas personas para definição do perfil dos usuários finais (ex.: veterinários e tutores de pets), visando guiar as decisões de requisitos e funcionalidades.| Chyntia F Prestes, Gabriel Batista, João Vitor Oliveira, Luanna Benezar, Manoele Braga. | 24/04/2025 |
+| 0.4    |Definição dos Requisitos Funcionais: funcionalidades principais como monitoramento cardíaco, geração de alertas e armazenamento de dados.|  Chyntia Prestes, João Vitor Oliveira.| 26/04/2025 |
+| 0.5    |Definição dos Requisitos Não Funcionais: desempenho, autonomia de bateria, conectividade e  robustez.|  Chyntia Prestes, João Vitor Oliveira.| 26/04/2025 |
+| 0.6    |Definição das Regras de Negócio: parâmetros clínicos, limites de alerta, periodicidade de coleta dos sinais, políticas de armazenamento e envio de dados.|  Chyntia Prestes, João Vitor Oliveira.| 27/04/2025|
+| 0.7   |Definição dos sensores e componentes: escolha de sensores de frequência cardíaca, microcontroladores (ESP32), módulos Bluetooth, fonte de alimentação, etc.|  Chyntia Prestes, João Vitor Oliveira.| 27/04/2025|
+| 0.8    |Definição da Arquitetura do Sistema: elaboração de diagramas de blocos, fluxogramas de dados, comunicação entre módulos e integração dos sensores com o microcontrolador.|Manoele Braga, Gabriel Batista.| 05/05/2025|
+| 0.9    |Alteração de Escopo: Decisão de não desenvolver o aplicativo mobile. O projeto passa a focar exclusivamente no sistema embarcado com funcionalidades locais.|Chyntia Prestes, João Vitor Oliveira.| 28/05/2025|
+| 1.0    |Elaboração Física do Projeto: montagem do protótipo, integração dos sensores com o microcontrolador, desenvolvimento de software embarcado e realização de testes iniciais.|Chyntia Prestes, João Vitor Oliveira.| 12/06/2025|
 
 
 
