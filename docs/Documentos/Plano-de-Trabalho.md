@@ -43,25 +43,18 @@ Durante o desenvolvimento do projeto, houve alterações importantes no escopo i
 A proposta é utilizar sensores integrados à roupa, aliados a um microcontrolador, para capturar os sinais cardíacos em tempo real. As informações serão exibidas diretamente no terminal, facilitando o acompanhamento por tutores e profissionais da área veterinária durante os testes e validações.
 O CardioPet busca, acima de tudo, contribuir para o cuidado com a saúde animal, oferecendo uma tecnologia portátil, de fácil uso e capaz de monitorar os batimentos cardíacos de forma contínua e confiável, sem a necessidade de estruturas clínicas complexas ou recursos de internet.
 
-## 1.3 Caracterização do Projeto
-### 1.3.1 Classe
-| Classe                 | Detalhamento                                                                                                                                 |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sistema embarcado com aplicação mobile | O projeto será desenvolvido como um sistema embarcado utilizando a placa ESP32 integrada a um sensor de batimentos cardíacos. Os dados coletados serão transmitidos via Bluetooth para uma aplicação mobile simples, que exibirá em tempo real os batimentos cardíacos do animal. O sistema será implementado em um peitoral vestível, projetado para uso em pets, com foco em segurança, usabilidade e monitoramento eficiente. |
+# 2. OBJETIVO PRINCIPAL
+Desenvolver uma Roupa Tecnológica com Sistema Embarcado para monitoramento da frequência cardíaca de pets, com exibição dos dados em tempo real através de uma página web hospedada localmente no ESP32 via Wi-Fi.
 
-### 1.3.2 Enquadrabilidade
+## 2.1. Objetivos Específicos
+- Captar os sinais cardíacos dos pets utilizando sensores.
+- Processar os sinais com o microcontrolador ESP32, convertendo-os em BPM.
+- Exibir os dados em tempo real na interface web acessível via IP local.
+- Garantir o conforto da roupa e a possibilidade de lavagem, com sensores removíveis.
+- Oferecer uma solução prática, de baixo custo e de fácil utilização, sem necessidade de aplicativo.
 
-| Enquadrabilidade  | Detalhamento                                                                                                                |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Dispositivo de Monitoramento Veterinário | Está em conformidade com normas de biossegurança e regulamentações aplicáveis à área de saúde animal. Respeita os direitos de propriedade intelectual, privacidade de dados (quando aplicável) e adota medidas de segurança digital. |
-
-### 1.3.3 Tipo
-| Tipo                        | Detalhamento                                                                                                                                       |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Documentação de hardware e software | Levantamento de requisitos, integração de sensores com a ESP32, programação do Bluetooth e criação de uma aplicação mobile para visualização dos dados em tempo real. |
-
-# 2 INFORMAÇÕES GERAIS
-O desenvolvimento de um peitoral com tecnologia vestível para monitoramento cardíaco de pets visa aprimorar o acompanhamento da saúde animal, oferecendo maior segurança durante procedimentos veterinários e no dia a dia dos tutores. O monitoramento de sinais vitais é essencial para a prevenção de complicações e para a realização de diagnósticos mais precisos. Assim, a utilização de um dispositivo estruturado com sistemas embarcados e comunicação mobile pode trazer benefícios significativos para a prática veterinária e para a qualidade de vida dos animais.
+# 3. IDENTIFICAÇÃO DE STAKEHOLDERS
+A tabela a seguir apresenta uma visão geral dos tipos de usuários da aplicação, descrevendo suas características e papéis.
 
 ## 2.1 Objetivo
 O principal objetivo é monitorar em tempo real a frequência cardíaca de pets por meio de um peitoral com tecnologia vestível, utilizando sistemas embarcados para garantir a coleta segura e contínua dos dados. Além disso, o dispositivo deve transmitir as informações via Bluetooth para uma aplicação mobile simples, permitindo que tutores e profissionais veterinários acompanhem de forma prática os sinais vitais dos animais, contribuindo para a prevenção de riscos e o suporte a diagnósticos mais precisos.
