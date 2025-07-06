@@ -55,93 +55,43 @@ Desenvolver uma Roupa Tecnológica com Sistema Embarcado para monitoramento da f
 
 # 3. IDENTIFICAÇÃO DE STAKEHOLDERS
 A tabela a seguir apresenta uma visão geral dos tipos de usuários da aplicação, descrevendo suas características e papéis.
-
-## 2.1 Objetivo
-O principal objetivo é monitorar em tempo real a frequência cardíaca de pets por meio de um peitoral com tecnologia vestível, utilizando sistemas embarcados para garantir a coleta segura e contínua dos dados. Além disso, o dispositivo deve transmitir as informações via Bluetooth para uma aplicação mobile simples, permitindo que tutores e profissionais veterinários acompanhem de forma prática os sinais vitais dos animais, contribuindo para a prevenção de riscos e o suporte a diagnósticos mais precisos.
-
-## 2.2 Escopo geral
-O projeto envolve o desenvolvimento de um sistema de monitoramento vestível para pets, focado em funcionalidades essenciais para a coleta e transmissão de sinais cardíacos. Em primeiro lugar, a integração do sensor de batimentos cardíacos com a ESP32 para captação contínua dos dados e envio via Bluetooth. Em segundo lugar, o desenvolvimento de uma aplicação mobile que receba, interprete e exiba em tempo real as informações de frequência cardíaca de forma clara e acessível.
-Ademais, o sistema permitirá o registro básico dos sinais captados, auxiliando no acompanhamento da saúde do animal ao longo do tempo. Além disso, será priorizada a segurança dos dados transmitidos, alinhando o projeto às boas práticas de proteção da informação e respeitando normas de saúde animal.
-
-### 2.2.1 Escopo Específico
-- Inicialmente, será realizada a integração do sensor de batimentos cardíacos com a placa ESP32, permitindo a captação precisa dos sinais vitais do animal. A ESP32 será programada para realizar a leitura contínua dos dados do sensor e estabelecer a comunicação via Bluetooth, garantindo que as informações possam ser transmitidas em tempo real para dispositivos móveis.
-- Em seguida, será desenvolvido um aplicativo mobile simples, que permitirá a conexão direta com a ESP32 para a recepção dos dados de batimentos cardíacos. O aplicativo exibirá a frequência cardíaca de maneira numérica e gráfica, oferecendo uma visualização clara e rápida para tutores e profissionais veterinários. A interface será desenhada para ser intuitiva e de fácil uso, sem a necessidade de conexão com a internet.
-- O projeto também contempla a construção de um peitoral vestível que acomode os componentes eletrônicos de forma confortável e segura para o animal. O design do peitoral será ajustável para atender diferentes portes de pets, garantindo que o sensor permaneça corretamente posicionado para a captação eficaz dos sinais cardíacos, sem causar desconforto.
-- Para a alimentação do sistema, será utilizada uma bateria portátil, como uma bateria recarregável compacta ou um pequeno powerbank, garantindo autonomia adequada e mobilidade do equipamento. O suporte aos componentes eletrônicos será planejado de forma que permita a fácil remoção para manutenção ou recarga da bateria, aumentando a praticidade e a vida útil do dispositivo.
-- Por fim, serão realizados testes de funcionamento do sistema em ambiente controlado, verificando a estabilidade da comunicação Bluetooth, a precisão na leitura dos batimentos cardíacos e a usabilidade do aplicativo. Será produzida também a documentação técnica detalhada sobre o hardware e software desenvolvidos, assegurando a reprodutibilidade e a futura manutenção do projeto.
-
-
-### 2.2.2 Escopo Negativo
-- O projeto não abrange o desenvolvimento de funcionalidades para análise clínica automática dos dados captados, como diagnóstico de doenças ou interpretação médica dos batimentos cardíacos, limitando-se apenas à exibição dos sinais vitais em tempo real. Também não será implementada qualquer funcionalidade de alerta inteligente ou sistema de notificação automática para situações de emergência baseadas nos dados coletados.
-- O sistema não utilizará conexão Wi-Fi, nem transmitirá dados para servidores remotos ou bancos de dados na nuvem, restringindo-se à comunicação via Bluetooth entre a ESP32 e o aplicativo mobile. Não haverá integração com plataformas de monitoramento remoto, nem com sistemas veterinários já existentes. O projeto se concentrará exclusivamente na comunicação local e na visualização imediata dos dados.
-- Além disso, não será desenvolvido um sistema de histórico completo para acompanhamento longitudinal dos dados cardíacos, nem uma base de dados para arquivamento prolongado das informações. As leituras serão exibidas de forma instantânea, sem armazenamento interno avançado.
-- O projeto também não contemplará um sistema de recarga automática de energia, gestão inteligente da bateria ou otimização avançada de consumo energético, sendo o carregamento realizado manualmente pelos usuários, através de bateria externa ou fonte de energia via USB.
-- Funcionalidades de geolocalização, rastreamento de movimentação do pet ou integração com redes sociais não serão incluídas. Também não haverá suporte para múltiplas línguas, limitações de acessibilidade específicas ou customizações individuais da interface do aplicativo mobile nesta versão inicial. Melhorias nesse sentido poderão ser consideradas para versões futuras do projeto.
-
-## 2.3 Ambiente de Desenvolvimento
-### Ferramentas e Tecnologias
-| Tipo                                        | Modelo e Especificações     |
+| Stakeholders                                        | Descrição     |
 | ------------------------------------------- | --------------------------- |
-| Repositório Online   | GitHub                      |
-| Editor de Código Mobile                       | Visual Studio Code com extensões para Flutter/Dart ou React Native                       |
-| Editor de código embarcado | Arduino IDE    |
-| Linguagem de Programação Embarcada                    | C++  |
-| Linguagem de Programação Mobile                       | Dart(Flutter) ou JavaScript (React Native)     |
-| Modelagem de Protótipo                                | Figma      |
-| Modelagem de fluxogramas                              | Draw.io           |
-| Comunicação sem Fio                                   | Bluetooth Low Energy (BLE)           |
-| Plataforma de desenvolvimento mobile                  | Expo Go                   |
+| Veterinários   | Utilizam o sistema durante consultas para monitoramento cardíaco de pets.                      |
+| Tutores de Pets | Acompanham a saúde dos seus pets no ambiente doméstico.                       |
+| Estudantes e Pesquisadores | Profissionais ou acadêmicos interessados no desenvolvimento de tecnologias embarcadas voltadas à saúde animal.    |
+| Equipe de Desenvolvimento  | Responsáveis pelo desenvolvimento, implementação, manutenção e evolução do sistema embarcado e da roupa tecnológica.  |
 
-## 2.4 Características Inovadoras do Projeto
-- Utilizar tecnologia vestível adaptada a pets para monitoramento contínuo da frequência cardíaca;
-- Integrar sensores de sinais vitais a um peitoral confortável e ajustável para diferentes tamanhos de animais;
-- Realizar a transmissão dos dados de batimentos cardíacos em tempo real via Bluetooth;
-- Permitir o acompanhamento instantâneo dos sinais cardíacos através de um aplicativo mobile simples e acessível;
-- Promover o monitoramento de saúde animal de forma portátil, sem necessidade de conexão à internet;
-- Possibilitar a remoção prática dos componentes eletrônicos para manutenção e higienização do peitoral. 
-
-## 2.5 Resultados Esperados
-- Permitir o monitoramento da frequência cardíaca de pets em tempo real com segurança e praticidade;
-- Auxiliar tutores e profissionais veterinários na identificação precoce de alterações cardíacas;
-- Reduzir riscos durante procedimentos clínicos e atividades físicas dos animais;
-- Facilitar a coleta de informações vitais sem a necessidade de equipamentos hospitalares complexos;
-- Contribuir para a inovação no cuidado preventivo da saúde animal;
-- Estimular o desenvolvimento de soluções tecnológicas voltadas ao bem-estar de pets.
-
-# 3 METODOLOGIA DE PROJETO
-## 3.1 Estrutura do Projeto
-- PO – Product Owner
-- Scrum Master
-- Squad: Avaliador de inspeção, modelador, analista de requisitos e designer UX/UI
-
-## 3.2 Equipe de Projeto: Papéis e Responsabilidades dos integrantes
-| Responsabilidade        | Profissional                   |
+## 3.1 Equipe de desenvolvimento
+A tabela a seguir lista os membros da equipe de desenvolvimento responsáveis pela criação e manutenção do sistema.
+| Desenvolvedor    |  Responsabilidade             |
 | ----------------------- | ------------------------------ |
-| Scrum Master            | João Vitor O. |
-| Avaliador de inspeção | Chyntia Prestes    |
-| Desenvolvedor embarcado (ESP32)  | Luanna Benezar |
-| Desenvolvedor mobile (App)       | Gabriel Batista    |
-| Prototipação    | Chyntia Prestes  |
-| Analista de requisitos       | João Vitor O.    |
-| Modelador                    | Manoele Braga |
+| Chyntia Freitas Prestes | Integração dos sensores, Programação embarcada e Prototipação física. |
+| Gabriel Batista dos Santos | Testes e Documentação.|
+| João Vitor Oliveira Simões | Análise de requisitos, Documentação e GitHub. |
+| Luanna Vitória Benezar Viana| Design da Roupa.|
+| Manoele Braga Colares da Costa  | Arquitetura do sistema. |
 
-## 3.3 Fases, Atividades e Cronograma
-- **Fase I: Especificação e Planejamento – Abril:**
-  - Planejamento inicial.
-  - Levantamento de requisitos do sistema.
-  - Desenvolvimento de Personas.
-  - Trabalhar histórias do usuário e seus critérios de aceitação, regras de negócios e requisitos não funcionais.
 
-- **Fase II: Desenvolvimento Parcial – Maio/Junho:**
-  - Início da implementação prática: programação da ESP32 para captação de sinais cardíacos.
-  - Configuração da comunicação Bluetooth.
-  - Desenvolvimento inicial do aplicativo mobile e primeiros testes de integração.
+# 4. TÉCNICAS UTILIZADAS
+## 4.1. Arquitetura do Sistema
+O sistema utilizará uma arquitetura embarcada composta por sensores de batimentos cardíacos integrados a um microcontrolador (ESP32), que processa os dados em tempo real e exibe os resultados diretamente no terminal do dispositivo conectado via rede Wi-Fi. Diferente da proposta inicial, o projeto não contará com um aplicativo mobile, sendo toda a comunicação e exibição realizada de forma local por meio do Serial Plotter da IDE Arduino, acessível via computador.
 
-- **Fase III: Finalização do Projeto – Junho/Julho:**
-  - Conclusão da integração entre o hardware (ESP32 + sensor + peitoral) e o aplicativo mobile.
-  - Testes finais de funcionamento.
-  - Ajustes de protótipo.
-  - Refinamento da interface do app e entrega final da implementação funcional.
+## 4.2. Tecnologias de Gerenciamento de Projeto
+Durante o desenvolvimento do projeto CardioPet, a equipe utilizou o GitHub para o controle de versão e armazenamento do código-fonte, garantindo o registro de todas as alterações feitas no sistema embarcado.
+Além disso, a comunicação entre os membros da equipe foi feita principalmente através de um grupo no WhatsApp, o que possibilitou trocas rápidas de informações, organização de reuniões e alinhamento das atividades ao longo do projeto.
+
+| Tecnologia    |  Propósito             |
+| ----------------------- | ------------------------------ |
+| Git/GitHub | Versionamento/Repositório |
+| WhatsApp | Gerenciamento de Tarefas da Equipe|
+
+## 4.3. Tecnologias de Desenvolvimento
+- O desenvolvimento do sistema será realizado utilizando a plataforma Arduino IDE, com a linguagem de programação C/C++, adequada para microcontroladores embarcados como o ESP32, que será o coração do sistema.
+- A comunicação dos dados será feita através de Wi-Fi, eliminando a necessidade de aplicativos móveis. Com isso, os dados serão enviados diretamente para o terminal do computador, utilizando a ferramenta Serial Plotter da própria IDE Arduino, permitindo a visualização em tempo real das informações coletadas.
+Para a captação dos sinais cardíacos, será utilizado o Módulo ECG AD8232, um sensor específico para detecção de sinais de batimentos cardíacos e eletrocardiograma (ECG), totalmente compatível com microcontroladores. Esse sensor garante uma leitura confiável dos sinais elétricos do coração do animal.
+- A roupa tecnológica foi projetada para acomodar os sensores de forma segura, confortável e eficiente, proporcionando estabilidade nas medições, mesmo durante os movimentos naturais do pet.
+- O sistema embarcado será responsável por todo o processamento dos dados recebidos dos sensores, realizando a interpretação dos sinais e exibindo os batimentos cardíacos diretamente no terminal. Essa solução elimina a necessidade de interfaces gráficas complexas, aplicativos externos ou armazenamento em nuvem, focando em uma comunicação local, leve e eficiente.
 
 ## 3.4 Entregas de cada Fase
 | Fase                           | Mês               | Entregável                                                                            |
