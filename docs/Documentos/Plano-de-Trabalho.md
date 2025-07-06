@@ -33,13 +33,15 @@
 Atualmente, o cuidado com a saúde dos animais de estimação tem ganhado destaque, impulsionado pela maior conscientização dos tutores em relação ao bem-estar de seus pets. Apesar dos avanços na medicina veterinária, ainda se observa a dificuldade no monitoramento contínuo de sinais vitais durante atendimentos e acompanhamentos clínicos, principalmente em ambientes que exigem agilidade e precisão no diagnóstico. A ausência de métodos acessíveis e eficazes para a coleta de informações como a frequência cardíaca pode comprometer a identificação precoce de problemas de saúde e a adoção de intervenções adequadas.
 Com isso, muitos profissionais e tutores enfrentam desafios na manutenção da saúde dos animais, sobretudo em situações que exigem acompanhamento em tempo real dos sinais vitais. A falta de ferramentas práticas e confiáveis no dia a dia da prática veterinária reforça a necessidade de soluções que integrem tecnologia, praticidade e segurança para otimizar o monitoramento da saúde animal.
 
-## 1.1 Objeto
-Desenvolver um peitoral com tecnologia vestível embarcada para monitoramento da frequência cardíaca de pets, visando auxiliar profissionais veterinários e tutores no acompanhamento em tempo real dos sinais vitais dos animais.
-
-## 1.2 Motivação, Justificativa e Oportunidade
+## 1.2. Descrição do Problema
 Para melhorar a segurança no atendimento veterinário na cidade de Itacoatiara, especialmente no acompanhamento de animais com doenças cardíacas (cardiopatias), torna-se necessária a introdução de tecnologias adequadas para o monitoramento da frequência cardíaca durante consultas clínicas. Atualmente, a ausência de dispositivos específicos nas clínicas compromete a avaliação precisa da saúde cardíaca dos pets, o que dificulta diagnósticos rápidos e seguros, mesmo em atendimentos rotineiros.
 Diante desse cenário, o projeto propõe uma solução inovadora para o monitoramento cardíaco em pets, com foco em animais que necessitam de atenção especial devido a cardiopatias. A proposta visa reduzir riscos associados a atendimentos clínicos, além de promover maior segurança, eficiência e qualidade no acompanhamento veterinário local, contribuindo para a melhoria da saúde e do bem-estar animal.
-  
+
+## 1.3. Descrição do Projeto
+O projeto CardioPet propõe o desenvolvimento de uma roupa tecnológica com sistema embarcado para monitoramento de sinais cardíacos em pets. A ideia surgiu da necessidade de oferecer uma solução prática e acessível para acompanhar a saúde de animais, especialmente em casos de acompanhamento veterinário e prevenção de problemas cardíacos.
+Durante o desenvolvimento do projeto, houve alterações importantes no escopo inicial. O que antes seria um peitoral com transmissão de dados para um aplicativo móvel, agora será um sistema totalmente embarcado, com processamento e exibição local das informações, sem a necessidade de conexão com smartphones.
+A proposta é utilizar sensores integrados à roupa, aliados a um microcontrolador, para capturar os sinais cardíacos em tempo real. As informações serão exibidas diretamente no terminal, facilitando o acompanhamento por tutores e profissionais da área veterinária durante os testes e validações.
+O CardioPet busca, acima de tudo, contribuir para o cuidado com a saúde animal, oferecendo uma tecnologia portátil, de fácil uso e capaz de monitorar os batimentos cardíacos de forma contínua e confiável, sem a necessidade de estruturas clínicas complexas ou recursos de internet.
 
 ## 1.3 Caracterização do Projeto
 ### 1.3.1 Classe
